@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Developer Portfolio</h1>
+    <img  src="assets/images/avatar.jpg" alt="Developer's Photo" class="avatar">
+  </header>
+
+  <nav class="navigation">
+    <a href="#about">About</a> |
+    <a href="#work">Work</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <img src="assets/images/about.jpg" alt="about developer" class="avatar"
+    <h2>About</h2>
+    <p>Information about the developer goes here.</p>
+  </section>
+
+  <section id="work" class="section work-section">
+    <h2>Work</h2>
+    <img src="assets/images/project 1.png" alt="Application 1" class="active">
+    <img src="app2.jpg" alt="Application 2">
+    <img src="app3.jpg" alt="Application 3">
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <ul>
+       <li href="https://www.github.com/rarg08">github</li>
+     </ul>
+    
+  </section>
+
+  <script>
+    // JavaScript code for scrolling to sections and handling image click
+    const navigationLinks = document.querySelectorAll('.navigation a');
+    navigationLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const sectionId = link.getAttribute('href');
+        document.querySelector(sectionId).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    const workImages = document.querySelectorAll('.work-section img');
+    workImages.forEach(image => {
+      image.addEventListener('click', () => {
+        window.location.href = 'deployed_application_url';
+      });
+    });
+  </script>
+</body>
+</html>
