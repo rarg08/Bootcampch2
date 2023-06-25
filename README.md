@@ -32,9 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+.assets\images\mockup.jpg
 
 
 ## Grading Requirements
