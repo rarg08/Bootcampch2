@@ -12,13 +12,13 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     padding: 20px;
     text-align: center;
   }
-  li{
+  li{ /*settings for the contact info list*/
     color: #fff;
   }
-  a{
+  a{ /*setting for a color*/
     color: #fff;
   }
-  .avatar {
+  .avatar { /*avatar picture settings and behaviour*/
     width: 75px;
     height: 100px;
     background-color: rgb(1, 26, 1);
@@ -27,18 +27,18 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     margin: 10px;
     cursor: pointer;
   }
-  .navigation {
+  .navigation { /* navigation appearance*/
     background-color: rgb(1, 26, 1);
     padding: 10px;
     text-align: center;
   }
- .about {
+ .about { /*about section appearance*/
     width: 200px;
     border: 2px solid #333;
     margin: 10px;
 
  }
-  .section {
+  .section { /*setting for about me section*/
     display: flexbox;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -46,7 +46,7 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     text-align: baseline;
   }
 
-  .section img {
+  .section img { /*settings for iumage sizes*/
     display: flex;
     max-width: 35%;
     min-width: 30%;
@@ -56,7 +56,7 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     align-items: center;
   }
 
-  .work-section img {
+  .work-section img { /*work section image unselected*/
     display: flex;
     background-color: #1A011A;
     width: 200px;
@@ -65,7 +65,8 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     cursor: pointer;
   }
 
-  .work-section img.active {
+  .work-section img.active { /*image behaviour on cursor pointer*/
     display: flex;
     width: 300px;
+    cursor: pointer;
   }
