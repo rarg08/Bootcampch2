@@ -67,6 +67,9 @@ body {  /* this part of the code is to assing the atributes to the body of the p
 
   .work-section img.active { /*image behaviour on cursor pointer*/
     display: flex;
-    width: 300px;
+    max-width: 40%;
+    min-width: 35%;
+    max-height: 35%;
+    min-height: 30%;
     cursor: pointer;
   }
