@@ -1,38 +1,64 @@
-body {
-    font-family: Arial, sans-serif;
+body {  /* this part of the code is to assing the atributes to the body of the page*/
+  background-color: #010E1A;
+  font-family: Arial, sans-serif;
+  color: #fff;
     margin: 0;
     padding: 0;
   }
 
-  .header {
-    background-color: #333;
+  .header { /* this part of the code is to assing the atributes to the body of the page*/
+    background-color: rgb(1, 26, 1);
     color: #fff;
     padding: 20px;
     text-align: center;
   }
+  li{
+    color: #fff;
+  }
+  a{
+    color: #fff;
+  }
   .avatar {
     width: 75px;
     height: 100px;
+    background-color: rgb(1, 26, 1);
+    accent-color: #fff;
     border: 2px solid #333;
     margin: 10px;
     cursor: pointer;
   }
   .navigation {
-    background-color: #f5f5f5;
+    background-color: rgb(1, 26, 1);
     padding: 10px;
     text-align: center;
   }
+ .about {
+    width: 200px;
+    border: 2px solid #333;
+    margin: 10px;
 
+ }
   .section {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding: 40px;
-    text-align: center;
+    text-align: baseline;
   }
 
   .section img {
-    max-width: 100%;
+    display: flex;
+    max-width: 35%;
+    min-width: 30%;
+    max-height: 25%;
+    min-height: 20%;
+    justify-items: center;
+    align-items: center;
   }
 
   .work-section img {
+    display: flex;
+    background-color: #1A011A;
     width: 200px;
     border: 2px solid #333;
     margin: 10px;
@@ -40,5 +66,6 @@ body {
   }
 
   .work-section img.active {
+    display: flex;
     width: 300px;
   }
