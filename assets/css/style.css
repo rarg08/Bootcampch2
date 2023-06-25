@@ -33,7 +33,7 @@ body {  /* this part of the code is to assing the atributes to the body of the p
     text-align: center;
   }
  .about { /*about section appearance*/
-    width: 200px;
+    width: 50px;
     border: 2px solid #333;
     margin: 10px;
 
@@ -59,7 +59,7 @@ body {  /* this part of the code is to assing the atributes to the body of the p
   .work-section img { /*work section image unselected*/
     display: flex;
     background-color: #1A011A;
-    width: 200px;
+    width: 400px;
     border: 2px solid #333;
     margin: 10px;
     cursor: pointer;
@@ -67,9 +67,9 @@ body {  /* this part of the code is to assing the atributes to the body of the p
 
   .work-section img.active { /*image behaviour on cursor pointer*/
     display: flex;
-    max-width: 40%;
-    min-width: 35%;
-    max-height: 35%;
-    min-height: 30%;
+    max-width: 20%;
+    min-width: 15%;
+    max-height: 25%;
+    min-height: 10%;
     cursor: pointer;
   }
